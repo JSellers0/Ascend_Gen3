@@ -4,14 +4,14 @@ profile:
     snowflake:
       # Snowflake account
       # e.g. account: wvwohks-syb91821
-      account: <your-snowflake-account>
+      account: maritz-atl_rd
 
       # adjust the values below if needed
-      user: ASCEND_ENV_DEV
-      database: ASCEND_ENV_DEV
-      schema: ASCEND_ENV_DEV
-      warehouse: ASCEND_ENV_DEV
-      role: ASCEND_ENV_DEV
+      user: SERVICE_ASCEND_GEN3
+      database: ASCEND_GEN3_DATAPLANE
+      schema: INSTANCE_DATA
+      warehouse: WH_ASCEND_GEN3
+      role: ASCEND_GEN3_DATAPLANE_DBA
 
   defaults:
     - kind: Flow
